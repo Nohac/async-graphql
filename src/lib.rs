@@ -160,15 +160,15 @@
 #![forbid(unsafe_code)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
-mod base;
-mod error;
-mod look_ahead;
-mod model;
-mod request;
-mod response;
-mod schema;
-mod subscription;
-mod validation;
+pub mod base;
+pub mod error;
+pub mod look_ahead;
+pub mod model;
+pub mod request;
+pub mod response;
+pub mod schema;
+pub mod subscription;
+pub mod validation;
 
 pub mod context;
 #[cfg(feature = "dataloader")]
